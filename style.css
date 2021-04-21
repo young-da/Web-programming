@@ -390,10 +390,6 @@ h5{
   width: 46%;
 }
 
-#genre{
-  word-spacing: 5px;
-}
-
 #genre_menu nav {
   font-family: 'NanumSquare';
   font-size: 1.3vw;
@@ -847,9 +843,13 @@ footer {
 
   #genre_menu nav {
     font-size: 2.3vw;
-    width: 200vw;
+    width: 110vw;
     position: relative;
-    left: -65vw;
+    left: -23vw;
+  }
+
+  #genre_menu ul{
+    width: 60%;
   }
 
   #gallery table , #gallery_2 table, #gallery_3 table{
@@ -909,5 +909,13 @@ footer {
   #game, #list{
     position: relative;
     left: 5.8vw;
+  }
+
+  #submit_main{
+    height: 75vw;
+  }
+
+  #submit_img{
+    width: 40vw;
   }
 }
