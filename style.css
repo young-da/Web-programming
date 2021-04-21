@@ -561,6 +561,10 @@ button{
   font-weight: bold;
 }
 
+#submit_main p, #submit_main a{
+  font-size: 1.2vw;
+}
+
 #submit_img{
   width: 20vw;
 }
@@ -914,6 +918,10 @@ footer {
 
   #submit_main{
     height: 75vw;
+  }
+
+  #submit_main p, #submit_main a{
+    font-size: 2.2vw;
   }
 
   #submit_img{
