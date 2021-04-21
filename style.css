@@ -113,7 +113,7 @@ hr{
 #introduce_box{
   font-family: 'NanumSquare';
   float: right;
-  margin-top: 3vw;
+  margin-top: 1vw;
   position: relative;
   right: 20vw;
 }
@@ -137,7 +137,7 @@ hr{
   list-style: none; 
   position: relative;
   left: 59.8vw;
-  bottom: 13%;
+  bottom: 5.2vw;
   width: 18vw;
   padding: 0;
   margin: 0;
@@ -162,6 +162,12 @@ a[title |= "tistory"]{
   background: url("/img/tistory.svg") no-repeat left center;
 }
 
+#main_music{
+  position: relative;
+  left: -0.5vw;
+  top: 0.8vw;
+}
+
 #schedule{
   margin-top: 5%;
   font-family: 'NanumSquare';
@@ -183,10 +189,6 @@ a[title |= "tistory"]{
 
 #schedule table td{
   background-color: #F0EEE8;
-}
-
-#main_music{
-  margin: 5% 19.8%;
 }
 
 #main{
@@ -589,11 +591,6 @@ footer {
     font-size: 2vw;
   }
 
-  #top p{
-    position: relative;
-    left: -3.5vw;
-  }
-
   header #title h1{
     line-height: 12.5vw;
   }
@@ -601,12 +598,12 @@ footer {
   header nav{
     width: 100%;
     height: 20vw;
-    bottom: 10vw;
+    bottom: 7vw;
   }
 
   header ul{
     position: relative;
-    right: 10vw;
+    right: 6vw;
   }
 
   header li{
@@ -631,12 +628,12 @@ footer {
   }
 
   #pic1{
-    left: 8.5vw;
+    left: 10.5vw;
     top: -12vw;
   }
   
   #pic2{
-    left: 12.5%;
+    left: 14.5%;
     top: -12vw;
   }
 
@@ -648,23 +645,37 @@ footer {
 
   #name{
     font-size: 3vw;
+    position: relative;
+    left: -9vw;
   }
   
   #introduce{
     font-size: 2.5vw;
     line-height: 150%;
+    position: relative;
+    left: -9vw;
   }
 
   #box ul{
-    width: 60vw;
-    top: -1vw;
-    left: 49.5vw;
+    width: 45vw;
+    top: -2vw;
+    left: 50.5vw;
   }
 
   #box li a {
     font-size: 2.5vw;
     padding: 0.3vw 4.8vw;
     line-height: 10%;
+  }
+
+  #main_music{
+    left: -39.5vw;
+    top: 6vw;
+  }
+
+  audio{
+    width: 38vw;
+    height: 5vw;
   }
 
   #schedule{
@@ -674,13 +685,8 @@ footer {
   #schedule table{
     width: 70vw;
     top: 12vw;
-    left: 11vw;
+    left: 12.5vw;
     font-size: 1.3vw;
-  }
-
-  #main_music{
-    position: relative;
-    left: -10vw;
   }
 
   hr{
@@ -731,12 +737,12 @@ footer {
 
   #part, #part_atc{
     font-family: 'NanumSquare';
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     top: -18vw;
   }
 
   #part_name{
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
 
   #square_1, #square_2, #square_3, #square_4, #square_5{
@@ -746,56 +752,56 @@ footer {
   
   #square_1 p{
     position: relative;
-    top: -19.5vw;
+    top: -17vw;
     left: -3vw;
   }
   
   #square_1 #part_name{
-    top: -25vw;
+    top: -19vw;
     left: -0.5vw;
   }
   
   #square_2 p{
     position: relative;
-    top: -16.5vw;
+    top: -14vw;
     left: -2vw;
   }
   
   #square_2 #part_name{
-    top: -20.5vw;
+    top: -13.7vw;
     left: -0.5vw;
   }
   
   #square_3 p{
     position: relative;
-    top: -15.3vw;
+    top: -12.3vw;
     left: -2vw;
   }
   
   #square_3 #part_name{
-    top: -16.3vw;
+    top: -12.3vw;
     left: 0vw;
   }
   
   #square_4 p{
     position: relative;
-    top: -15.6vw;
+    top: -13vw;
     left: -2vw;
   }
   
   #square_4 #part_name{
-    top: -19.9vw;
+    top: -13vw;
     left: 0vw;
   }
   
   #square_5 p{
     position: relative;
-    top: -16vw;
+    top: -14vw;
     left: -2vw;
   }
   
   #square_5 #part_name{
-    top: -19.9vw;
+    top: -16vw;
     left: 0vw;
   }
   
