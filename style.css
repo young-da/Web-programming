@@ -389,10 +389,8 @@ h5{
 }
 
 #genre_menu ul{
-  display: inline-block; / display: inline;
-  padding-left: 0;
+  display: inline;
   line-height: 190%;
-  width: 46%;
 }
 
 #genre_menu nav {
@@ -412,9 +410,8 @@ h5{
   float: left;
   list-style: none;
   letter-spacing: 0.2px;
-  width: 10%;
   position: relative;
-  left: 17%;
+  left: 29vw;
 }
 
 .genre_menu_mini:hover{
@@ -763,7 +760,7 @@ footer {
   }
   
   #square_1 #part_name{
-    top: -19vw;
+    top: -21vw;
     left: -0.5vw;
   }
   
@@ -774,7 +771,7 @@ footer {
   }
   
   #square_2 #part_name{
-    top: -13.7vw;
+    top: -15.7vw;
     left: -0.5vw;
   }
   
@@ -785,7 +782,7 @@ footer {
   }
   
   #square_3 #part_name{
-    top: -12.3vw;
+    top: -15.3vw;
     left: 0vw;
   }
   
@@ -796,7 +793,7 @@ footer {
   }
   
   #square_4 #part_name{
-    top: -13vw;
+    top: -16vw;
     left: 0vw;
   }
   
@@ -807,7 +804,7 @@ footer {
   }
   
   #square_5 #part_name{
-    top: -16vw;
+    top: -18vw;
     left: 0vw;
   }
   
@@ -852,13 +849,10 @@ footer {
 
   #genre_menu nav {
     font-size: 2.3vw;
-    width: 110vw;
-    position: relative;
-    left: -23vw;
   }
 
-  #genre_menu ul{
-    width: 60%;
+  #movie_main nav ul li{
+     left: 11.5vw;
   }
 
   #gallery table , #gallery_2 table, #gallery_3 table{
