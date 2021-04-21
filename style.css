@@ -679,13 +679,14 @@ footer {
   }
 
   #schedule{
-    height: 80vw;
+    height: 88vw;
   }
 
   #schedule table{
-    width: 70vw;
+    width: 80vw;
     top: 12vw;
-    left: 12.5vw;
+    height: 70vw;
+    left: 9vw;
     font-size: 1.3vw;
   }
 
