@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="survey_back">
+  <section id="survey_main">
+    <div id="trans">
+      <h3>Thank you for visiting !</h3>
+      <h4>다음 설문조사에 참여해주시면 감사하겠습니다.</h4>
+      <form action="submit.html" method="GET">
+        <fieldset>
+          <legend>check</legend>
+          <div>
+            <label for="age">나이</label><br>
+            <input type="number" name="age" id="age" min="0" max="150" step="1" required>
+          </div>
+          <div>
+            <label for="">성별<br></label>
+            <input type="radio" name="gender" id="male" value="male" required>
+            <label for="male">남성</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female" id="female">여성</label>
+          </div>
+          <div>
+            <label for="">방문 경로<br></label>
+            <input type="radio" name="visit" id="search" value="search" required>
+            <label for="search">포털사이트 검색</label>
+            <input type="radio" name="visit" id="self_url" value="self_url">
+            <label for="self_url" id="self_url">직접 url 주소 입력<br></label>
+            <input type="radio" name="visit" id="sns" value="sns">
+            <label for="sns">SNS</label>
+            <input type="radio" name="visit" id="recommend" value="recommend">
+            <label for="recommend" id="recommend">지인 추천</label>
+          </div>
+          <div>
+            <label for="">추가되었으면 하는 기능(선택)<br></label>
+            <input type="checkbox" name="append" id="login">
+            <label for="serach">로그인</label>
+            <input type="checkbox" name="append" id="game">
+            <label for="self_url" id="game">게임<br></label>
+            <input type="checkbox" name="append" id="draw">
+            <label for="sns">그림판</label>
+            <input type="checkbox" name="append" id="list">
+            <label for="recommend" id="list">To Do List</label>
+          </div>
+          <div>
+            <label for="tendi">홈페이지에 대한 건의사항(선택)</label><br>
+            <textarea name="tendi" id="tendi" cols="60" rows="8" placeholder="입력해주세요."></textarea>
+          </div>
+        </fieldset>
+        <button type="reset">초기화</button>
+        <button type="submit">제출</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>
+      Copyright &copy; 2021, 중부대학교 정보보호학과 이다영
+    </p>
+  </footer>
+
+</body>
+
+</html>

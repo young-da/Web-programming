@@ -1,0 +1,901 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Roboto:wght@300&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css');
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #F7F7F7;
+}
+
+#top{
+  font-family: 'Roboto';
+  font-size: 1vw;
+  background-color: #49654C;
+  color: white;
+
+  text-align: center;
+  line-height: 45px;
+  word-spacing: 5px;
+}
+
+#top p{
+  margin: 0;
+}
+
+header a{
+  color: #3B3838;
+  text-decoration: none;
+}
+
+header li{
+  display: inline;
+  padding: 0px 39px;
+  float: left;
+}
+
+header #title{
+  float: left;
+}
+
+header #title h1{
+  font-family: 'Noto Serif';
+  font-size: 5vw;
+  font-weight: lighter;
+  margin: 0;
+  line-height: 9.5vw;
+}
+
+header nav {
+  font-family: 'Roboto';
+  font-size: 1.4vw;
+  font-weight: bold;
+  text-align: center;
+  float: right;
+  line-height: 90px;
+  position: relative;
+  left: 2%;
+}
+
+#menu{
+  margin-left: 8vw;
+  margin-right: 8vw;
+  margin-bottom: 1.5vw;
+  height: 9.5vw;
+  text-align: center;
+}
+
+header nav ul li{
+  letter-spacing: 0.2px;
+}
+
+header nav ul li a:hover{
+  color: #008d62;
+}
+
+#menu_color a{
+  color: #008d62;
+}
+
+hr{
+  width: 83.5%;
+  color: #A6A6A6;
+  size: 5%;
+  text-align: center;
+  margin-left: 7.8%;
+}
+
+#box{
+  height: 27vw;
+  background-color: #E8EBE1;
+}
+
+#box img{
+  width: 27vw;
+}
+
+#pic1{
+  position: relative;
+  left: 17%;
+  top: 12%;
+}
+
+#pic2{
+  position: relative;
+  right: 8%;
+  top: 18%;
+}
+
+#introduce_box{
+  font-family: 'NanumSquare';
+  float: right;
+  margin-top: 3vw;
+  position: relative;
+  right: 20vw;
+}
+
+#box a{
+  font-family: 'NanumSquare';
+  font-size: 1.5vw;
+  line-height: 155%;
+}
+
+#name{
+  font-size: 2vw;
+}
+
+#introduce{
+  font-size: 1.5vw;
+  line-height: 155%;
+}
+
+#box ul { 
+  list-style: none; 
+  position: relative;
+  left: 59.8vw;
+  bottom: 13%;
+  width: 18vw;
+  padding: 0;
+  margin: 0;
+}
+
+#box li a {
+	padding: 1px 31px;
+	font-size: 1.4vw;
+	text-decoration: none;
+  color: black;
+}
+
+#box li a:hover {
+	color: #008d62;
+}
+
+a[title |= "youtube"]{
+  background: url("/img/youtube.svg") no-repeat left center;
+}
+
+a[title |= "tistory"]{
+  background: url("/img/tistory.svg") no-repeat left center;
+}
+
+#schedule{
+  margin-top: 5%;
+  font-family: 'NanumSquare';
+}
+
+#schedule p{
+  text-align: center;
+  margin-bottom: 3%;
+  font-size: 1.8vw;
+}
+
+#schedule table{
+  height: 50vw;
+  text-align: center;
+  position: relative;
+  left: 20vw;
+  font-size: 1.2vw;
+}
+
+#schedule table td{
+  background-color: #F0EEE8;
+}
+
+#main_music{
+  margin: 5% 19.8%;
+}
+
+#main{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+  height: 53vw;
+}
+
+#port{
+  height: 45vw;
+}
+
+h2{
+  font-family: 'NanumSquare';
+  font-size: 1.4vw;
+  text-align: center;
+  margin: 0;
+  padding-top: 5.2%;
+  padding-bottom: 3%;
+}
+
+#pushpin{
+  width: 6.3vw;
+  transform:rotate(90deg);
+  float: right;
+  position: relative;
+  bottom: 104.5vw;
+  left: 2%;
+  z-index: 3;
+}
+
+#in_line, #main_text{
+  border: 3.5px solid #949494;
+  border-radius: 100px; 
+}
+
+#main_text{
+  position: relative;
+  left: -1.7vw;
+  height: 53vw;
+  z-index: 2;
+}
+
+#in_line{
+  position: relative;
+  height: 48.5vw;
+  bottom: 51.5vw;
+  left: 0.6vw;
+  z-index: 1;
+}
+
+#main_text p{
+  font-family: 'NanumSquare';
+  font-size: 1.4vw;
+  line-height: 150%;
+  position: relative;
+  left: 29%;
+  margin: 0;
+  width: 50%;
+}
+
+#team_main{
+  margin-left: 8.2%;
+  margin-right: 8.2%;
+  margin-top: 4%;
+}
+
+h5{
+  font-family: 'NanumSquare';
+  font-size: 1.4vw;
+}
+
+#team p{
+  font-family: 'NanumSquare';
+  font-size: 1.4vw;
+  line-height: 150%;
+  padding-bottom: 4%;
+}
+
+#part, #part_atc{
+  font-family: 'NanumSquare';
+  font-size: 1.5vw;
+  margin-left: 35%;
+  margin-top: 2.6%;
+}
+
+#part{
+  color: #385723;
+}
+
+#part_atc{
+  line-height: 130%;
+}
+
+#part_name{
+  font-family: 'NanumSquare';
+  font-size: 1.4vw;
+  float: right;
+  margin-right: 1.5%;
+}
+
+#square_1, #square_2, #square_3, #square_4, #square_5{
+  margin-bottom: 0.7vw;
+  height: 13.5vw;
+  border: none;
+  background-color: #F0EEE8;
+}
+
+#square_1 p{
+  position: relative;
+  bottom: 13.2vw;
+}
+
+#square_1 #part_name{
+  bottom: 15.6vw;
+}
+
+#square_2 p{
+  position: relative;
+  bottom: 11.6vw;
+}
+
+#square_2 #part_name{
+  bottom: 12.6vw;
+}
+
+#square_3 p{
+  position: relative;
+  bottom: 10.5vw;
+}
+
+#square_3 #part_name{
+  bottom: 11.5vw;
+}
+
+#square_4 p{
+  position: relative;
+  bottom: 11vw;
+}
+
+#square_4 #part_name{
+  bottom: 12.2vw;
+}
+
+#square_5 p{
+  position: relative;
+  bottom: 11vw;
+}
+
+#square_5 #part_name{
+  bottom: 12vw;
+}
+
+#icon_1{
+  width: 16%;
+  margin-top: 0.8%;
+  margin-left: 8%;
+}
+
+#icon_2{
+  width: 14%;
+  margin-top: 1.4%;
+  margin-left: 9.8%;
+}
+
+#icon_3{
+  width: 11.5%;
+  margin-top: 2.5%;
+  margin-left: 10.5%;
+}
+
+#icon_4{
+  width: 12.7%;
+  margin-left: 10.6%;
+  margin-top: 2.1%;
+}
+
+#icon_5{
+  width: 12.8%;
+  margin-top: 1.8%;
+  margin-left: 9.3%;
+}
+
+#movie_main{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 4%;
+}
+
+#genre_menu{
+  text-align: center;
+}
+
+#genre_menu ul{
+  display: inline-block; / display: inline;
+  padding-left: 0;
+  line-height: 190%;
+  width: 46%;
+}
+
+#genre{
+  word-spacing: 5px;
+}
+
+#genre_menu nav {
+  font-family: 'NanumSquare';
+  font-size: 1.3vw;
+}
+
+#movie_main p{
+  font-family: 'NanumSquare';
+  font-size: 1.6vw;
+  text-align: center;
+  margin-bottom: 3.5%;
+}
+
+#movie_main nav ul li{
+  padding: 0px 16px;
+  float: left;
+  list-style: none;
+  letter-spacing: 0.2px;
+  width: 10%;
+  position: relative;
+  left: 17%;
+}
+
+.genre_menu_mini:hover{
+  background-color: #B69AB3;
+  cursor: pointer;
+}
+
+.genre_menu_mini:active{
+  background-color: #6a4644;
+}
+
+#movie_main a{
+  text-decoration: none;
+  color: black;
+}
+
+#current{
+  font-weight: bolder;
+}
+
+#gallery, #gallery_2, #gallery_3{
+  margin-top: 4%;
+}
+
+#gallery table , #gallery_2 table, #gallery_3 table{
+  font-family: 'NanumSquare';
+  font-size: 1.2vw;
+  text-align: center;
+  width: 100%;
+}
+
+#gallery table tr td img, #gallery_2 table tr td img, #gallery_3 table tr td img{
+  width: 15vw;
+}
+
+#gallery table tr td img:hover{
+  transform: perspective(600px)rotateY(25deg);
+}
+
+#gallery_2 table tr td img:hover{
+  transform: perspective(150px) translateZ(10px);
+}
+
+#gallery_3 table tr td img:hover{
+  transform: perspective(600px)rotateY(337deg);
+}
+
+#gallery table tr td, #gallery_2 table tr td, #gallery_3 table tr td{
+  padding: 0 2vw;
+  padding-bottom: 1%;
+}
+
+#survey_back{
+  background-image: url("img/kitty.png");
+  width: 100%;
+  height: 100%;
+}
+
+#trans{
+  background-color: white;
+  width: 80%;
+  height: 70vw;
+  margin: 7% 10%;
+  border-radius: 90px;
+  opacity: 85%;
+  text-align: center;
+  font-family: 'NanumSquare';
+  font-size: 1.3vw;
+}
+
+h3{
+  position: relative;
+  top: 8%;
+  font-size: 3vw;
+  font-weight: normal;
+  text-shadow: 2px 2px gray;
+}
+
+h4{
+  position: relative;
+  top: 5%;
+  font-weight: bold;
+}
+
+legend{
+  font-size: 1.8vw;
+}
+
+fieldset{
+  text-align: left;
+  margin: 8% 8%;
+}
+
+fieldset div{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+label{
+  padding-right: 10%;
+}
+
+input{
+  margin-top: 1.2%;
+}
+
+textarea{
+  margin-top: 1.2%;
+}
+
+#female{
+  position: relative;
+  left: 1.18vw;
+}
+
+#self_url{
+  position: relative;
+  left: -5.12vw;
+}
+
+#recommend{
+  position: relative;
+  left: 1vw;
+}
+
+button{
+  border-radius: 5px;
+  font-size: 1.2vw;
+  position: relative;
+  bottom: 4.5vw;
+  left: 27.8vw;
+  width: 5vw;
+  height: 2.5vw;
+  line-height: 0.2vw;
+  background-color: #FF867F;
+  border: 1px solid #3B3838;
+  color:#fff;
+  padding: 15px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+#submit_main{
+  margin: 10% 10%;
+  text-align: center;
+  font-family: 'NanumSquare';
+  font-weight: bold;
+}
+
+#submit_img{
+  width: 20vw;
+}
+
+#submit_main a{
+  color: green;
+}
+
+footer {
+  font-family: 'NanumSquare';
+  font-size: 1.1vw;
+  color: gray;
+  padding: 3vw;
+  margin-top: 6vw;
+  text-align: center;
+}
+
+#team_footer{
+  position: relative;
+  left: 22vw;
+  width: 50%;
+}
+
+@media(max-width: 768px){
+  #top{
+    font-size: 2vw;
+  }
+
+  #top p{
+    position: relative;
+    left: -3.5vw;
+  }
+
+  header #title h1{
+    line-height: 12.5vw;
+  }
+
+  header nav{
+    width: 100%;
+    height: 20vw;
+    bottom: 10vw;
+  }
+
+  header ul{
+    position: relative;
+    right: 10vw;
+  }
+
+  header li{
+     padding: 0px 0px;
+     height: 10vw;
+     width: 25%;
+  }
+
+  header nav {
+    font-size: 2.5vw;
+  }
+
+  #box{
+    position: relative;
+    top: 15vw;
+    height: 70vw;
+  }
+
+  #box img{
+    width: 35vw;
+    height: 23vw;
+  }
+
+  #pic1{
+    left: 8.5vw;
+    top: -12vw;
+  }
+  
+  #pic2{
+    left: 12.5%;
+    top: -12vw;
+  }
+
+  #introduce_box{
+    position: relative;
+    left: -31.5vw;
+    bottom: 11vw;
+  }
+
+  #name{
+    font-size: 3vw;
+  }
+  
+  #introduce{
+    font-size: 2.5vw;
+    line-height: 150%;
+  }
+
+  #box ul{
+    width: 60vw;
+    top: -1vw;
+    left: 49.5vw;
+  }
+
+  #box li a {
+    font-size: 2.5vw;
+    padding: 0.3vw 4.8vw;
+    line-height: 10%;
+  }
+
+  #schedule{
+    height: 80vw;
+  }
+
+  #schedule table{
+    width: 70vw;
+    top: 12vw;
+    left: 11vw;
+    font-size: 1.3vw;
+  }
+
+  #main_music{
+    position: relative;
+    left: -10vw;
+  }
+
+  hr{
+    position: relative;
+    top: -10vw;
+  }
+
+  #port_header{
+    height: 25vw;
+  }
+
+  #main{
+    margin-top: 8%;
+    height: 120vw;
+  }
+
+  #main_text{
+    height: 114vw;
+    left: -2.4vw;
+  }
+
+  h2{
+    padding-top: 7.5vw;
+    padding-bottom: 3vw;
+  }
+
+  #main_text p, h2{
+    font-size: 2.4vw;
+    left: 22vw;
+  }
+
+  #in_line{
+    height: 114vw;
+    bottom: 112vw;
+    left: 2.1vw;
+  }
+
+  #pushpin{
+    bottom: 232vw;
+    width: 12vw;
+    left: -1vw;
+  }
+
+  #team_main{
+    margin-top: 0;
+    font-size: 2.4vw;
+  }
+
+  #part, #part_atc{
+    font-family: 'NanumSquare';
+    font-size: 2.5vw;
+    top: -18vw;
+  }
+
+  #part_name{
+    font-size: 2.2vw;
+  }
+
+  #square_1, #square_2, #square_3, #square_4, #square_5{
+    margin-bottom: 0.7vw;
+    height: 22vw;
+  }
+  
+  #square_1 p{
+    position: relative;
+    top: -19.5vw;
+    left: -3vw;
+  }
+  
+  #square_1 #part_name{
+    top: -25vw;
+    left: -0.5vw;
+  }
+  
+  #square_2 p{
+    position: relative;
+    top: -16.5vw;
+    left: -2vw;
+  }
+  
+  #square_2 #part_name{
+    top: -20.5vw;
+    left: -0.5vw;
+  }
+  
+  #square_3 p{
+    position: relative;
+    top: -15.3vw;
+    left: -2vw;
+  }
+  
+  #square_3 #part_name{
+    top: -16.3vw;
+    left: 0vw;
+  }
+  
+  #square_4 p{
+    position: relative;
+    top: -15.6vw;
+    left: -2vw;
+  }
+  
+  #square_4 #part_name{
+    top: -19.9vw;
+    left: 0vw;
+  }
+  
+  #square_5 p{
+    position: relative;
+    top: -16vw;
+    left: -2vw;
+  }
+  
+  #square_5 #part_name{
+    top: -19.9vw;
+    left: 0vw;
+  }
+  
+  #icon_1{
+    width: 17vw;
+    margin-top: 2.6vw;
+    margin-left: 8%;
+  }
+  
+  #icon_2{
+    width: 14vw;
+    margin-top: 3.2vw;
+    margin-left: 9.8%;
+  }
+  
+  #icon_3{
+    width: 11.5vw;
+    margin-top: 4.5vw;
+    margin-left: 10.5%;
+  }
+  
+  #icon_4{
+    width: 12.7vw;
+    margin-left: 10.6%;
+    margin-top: 4.1vw;
+  }
+  
+  #icon_5{
+    width: 12.8vw;
+    margin-top: 3.8vw;
+    margin-left: 9.3%;
+  }
+
+  #movie_main{
+    margin-top: 0%;
+  }
+
+  #movie_main p{
+    font-size: 2.6vw;
+    margin-bottom: 3.5%;
+  }
+
+  #genre_menu nav {
+    font-size: 2.3vw;
+    width: 200vw;
+    position: relative;
+    left: -65vw;
+  }
+
+  #gallery table , #gallery_2 table, #gallery_3 table{
+    font-size: 2.2vw;
+  }
+
+  #trans{
+    font-size: 2.3vw;
+  }
+  
+  h3{
+    font-size: 4vw;
+  }
+
+  h4{
+    margin-bottom: 13%;
+  }
+
+  #trans{
+    position: relative;
+    left: -5vw;
+    width: 90vw;
+    height: 145vw;
+  }
+
+  fieldset div{
+    width: 60vw;
+  }
+
+  textarea{
+    width: 55vw;
+  }
+
+  button{
+    font-size: 2.2vw;
+    bottom: 4.5vw;
+    left: 27.1vw;
+    width: 10vw;
+    padding: 12px 0;
+  }
+
+  #female{
+    position: relative;
+    left: 7.75vw;
+  }
+  
+  #recommend{
+    position: relative;
+    left: 7.5vw;
+  }
+
+  #game, #list{
+    position: relative;
+    left: 5.8vw;
+  }
+}
