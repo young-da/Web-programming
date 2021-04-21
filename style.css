@@ -579,6 +579,7 @@ footer {
 }
 
 #team_footer{
+  font-size: 1.1vw;
   position: relative;
   left: 22vw;
   width: 50%;
@@ -729,7 +730,7 @@ footer {
   }
 
   #pushpin{
-    bottom: 2.5vw;
+    bottom: -1vw;
     width: 12vw;
     left: 1vw;
   }
@@ -917,5 +918,13 @@ footer {
 
   #submit_img{
     width: 40vw;
+  }
+
+  footer {
+    font-size: 1.7vw;
+  }
+  
+  #team_footer{
+    font-size: 1.7vw;
   }
 }
