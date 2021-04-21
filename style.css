@@ -211,12 +211,17 @@ h2{
   padding-bottom: 3%;
 }
 
+#inte{
+  position: relative;
+  left: 2.8vw;
+}
+
 #pushpin{
   width: 6.3vw;
   transform:rotate(90deg);
   float: right;
   position: relative;
-  bottom: 104.5vw;
+  bottom: 2vw;
   left: 2%;
   z-index: 3;
 }
@@ -695,10 +700,6 @@ footer {
     top: -10vw;
   }
 
-  #port_header{
-    height: 25vw;
-  }
-
   #main{
     margin-top: 8%;
     height: 120vw;
@@ -714,6 +715,11 @@ footer {
     padding-bottom: 3vw;
   }
 
+  #inte{
+    position: relative;
+    left: 5.2vw;
+  }
+
   #main_text p, h2{
     font-size: 2.4vw;
     left: 22vw;
@@ -726,9 +732,9 @@ footer {
   }
 
   #pushpin{
-    bottom: 232vw;
+    bottom: 2.5vw;
     width: 12vw;
-    left: -1vw;
+    left: 1vw;
   }
 
   #team_main{
