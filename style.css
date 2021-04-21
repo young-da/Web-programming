@@ -631,12 +631,12 @@ footer {
   }
 
   #pic1{
-    left: 13.5vw;
+    left: 15.5vw;
     top: -12vw;
   }
   
   #pic2{
-    left: 14.5%;
+    left: 16.5%;
     top: -12vw;
   }
 
@@ -649,20 +649,20 @@ footer {
   #name{
     font-size: 3vw;
     position: relative;
-    left: -7vw;
+    left: -5vw;
   }
   
   #introduce{
     font-size: 2.5vw;
     line-height: 150%;
     position: relative;
-    left: -7vw;
+    left: -5vw;
   }
 
   #box ul{
     width: 45vw;
-    top: -2vw;
-    left: 52.5vw;
+    top: 0vw;
+    left: 54.5vw;
   }
 
   #box li a {
@@ -689,7 +689,7 @@ footer {
     width: 80vw;
     top: 12vw;
     height: 70vw;
-    left: 10vw;
+    left: 11vw;
     font-size: 2.3vw;
   }
 
