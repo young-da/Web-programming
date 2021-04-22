@@ -299,8 +299,10 @@ h5{
 #square_1, #square_2, #square_3, #square_4, #square_5{
   margin-bottom: 0.7vw;
   height: 13.5vw;
-  border: none;
-  background-color: #F0EEE8;
+}
+
+#square_1{
+  background-color: #F6EFE2;
 }
 
 #square_1 p{
@@ -312,6 +314,10 @@ h5{
   bottom: 15.6vw;
 }
 
+#square_2{
+  background-color: #F0EEE8;
+}
+
 #square_2 p{
   position: relative;
   bottom: 11.6vw;
@@ -319,6 +325,10 @@ h5{
 
 #square_2 #part_name{
   bottom: 12.6vw;
+}
+
+#square_3{
+  background-color: #DDE7E2;
 }
 
 #square_3 p{
@@ -330,6 +340,10 @@ h5{
   bottom: 11.5vw;
 }
 
+#square_4{
+  background-color: #F9F0E8;
+}
+
 #square_4 p{
   position: relative;
   bottom: 11vw;
@@ -337,6 +351,10 @@ h5{
 
 #square_4 #part_name{
   bottom: 12.2vw;
+}
+
+#square_5{
+  background-color: #ECE6E3;
 }
 
 #square_5 p{
